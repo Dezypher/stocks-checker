@@ -20,10 +20,9 @@ class stock_checker():
         stock_info = self.amc_ticker.info
         data = self.amc_ticker.history()
         last_quote = (data.tail(1)['Close'].iloc[0])
-        bid = stock_info['bid']
         print("Current bid for AMC is $" + str(round(last_quote, 2)) + " as of " + str(datetime.datetime.now()))
 
-        if bid >= self.alert_price:
+        if last_quote >= self.alert_price:
             print("Alert price point reached!")
             mixer.music.play()
             self.alarmed = True
