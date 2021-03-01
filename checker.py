@@ -17,7 +17,6 @@ class stock_checker():
 
 
     def check_stock(self):
-        stock_info = self.amc_ticker.info
         data = self.amc_ticker.history()
         last_quote = (data.tail(1)['Close'].iloc[0])
         print("Current bid for AMC is $" + str(round(last_quote, 2)) + " as of " + str(datetime.datetime.now()))
