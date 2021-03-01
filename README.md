@@ -24,9 +24,9 @@ That's it! The script should be running and should be displaying and checking th
 
 ### Variables
 You can change the following variables in the `stock_checker` class to fit your needs.
-- interval - the interval this script checks the stock price in seconds
+- interval - the interval this script checks the stock price in seconds (currently set to 60)
 - stock_ticker - you can change which stock this ticker is looking at (currently set to AMC)
-- alert_price - when the current price is greater than or equal to this value, the alarm will set off
+- alert_price - when the current price is greater than or equal to this value, the alarm will set off (set to 1000.0, obviously)
 
 
-Now you apes can go about your day without having to check your stock price every damn second.
+Now you apes can go about your day without having to check the stock price every second.
