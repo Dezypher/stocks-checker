@@ -1,9 +1,10 @@
 # stocks-checker
 
-Hi everyone, this is a simple stock price checking python script that'll play an alarm sound whenever the stock price is above a certain threshold that you assign. This uses the Yahoo Finance public API, so thank them for keeping it public and free.
+Hi everyone, this is a simple stock price checking python script that'll play an alarm sound whenever the stock price is above a certain threshold that you assign. This uses the Yahoo Finance public API, so thank them for keeping it public and free. As an ape who lives in a country where the NYC Stock Market opens at 10:30PM, it would be unhealthy to stay up all night watching a stock's ticker. I decided to make this script to solve this problem.
 
 
 ### Setup
+You will probably need some speakers to fully utilize this script. It can also be used in the background while you're using your computer.
 
 - Firstly, you need to install Python onto your computer. You can get an installer from their website: https://www.python.org/downloads/
 - Second, you need to install the following Python libraries via the `pip install` command on your command prompt:
@@ -26,3 +27,6 @@ You can change the following variables in the `stock_checker` class to fit your 
 - interval - the interval this script checks the stock price in seconds
 - stock_ticker - you can change which stock this ticker is looking at (currently set to AMC)
 - alert_price - when the current price is greater than or equal to this value, the alarm will set off
+
+
+Now you apes can go about your day without having to check your stock price every damn second.
