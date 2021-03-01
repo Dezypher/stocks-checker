@@ -14,7 +14,7 @@ You will probably need some speakers to fully utilize this script. It can also b
 
 ### To run the script
 
-- Download the script in this repository and put it in a folder for itself
+- Download the script "checker.py" in this repository and put it in a folder for itself
 - Put the `alarm.mp3` file in this folder as well
 - To run the script, open your command prompt and direct it to the folder where you placed this script
 - Run the command `python checker.py`
