@@ -18,7 +18,7 @@ You will probably need some speakers to fully utilize this script. It can also b
 - Put the `alarm.mp3` file in this folder as well
 - To run the script, open your command prompt and direct it to the folder where you placed this script
 - Run the command `python checker.py`
-- If you wish to stop it, press CTRL + C (Windows) or CMD + C (MacOS)
+- If you wish to stop it, press CTRL + C (Windows) or CMD + C (MacOS) (It may lag a bit)
 
 That's it! The script should be running and should be displaying and checking the stock price every minute.
 
