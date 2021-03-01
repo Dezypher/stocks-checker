@@ -7,7 +7,7 @@ Hi everyone, this is a simple stock price checking python script that'll play an
 You will probably need some speakers to fully utilize this script. It can also be used in the background while you're using your computer.
 
 - Firstly, you need to install Python onto your computer. You can get an installer from their website: https://www.python.org/downloads/
-- Second, you need to install the following Python libraries via the `pip install` command on your command prompt:
+- Second, you need to install the following Python libraries via the `pip install` command on your Command Prompt (Windows) or Terminal (MacOS):
   - `pip install yfinance`
   - `pip install pygame`
 - Finally, you need to find an MP3 file as your alarm sound. I did not include it in this repository in case I run into copyright issues with the alarm sound I use. So find an alarm sound you wish to use and name it `alarm.mp3`
