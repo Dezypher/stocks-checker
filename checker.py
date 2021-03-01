@@ -7,7 +7,7 @@ class stock_checker():
     # Variables
     interval = 60 # In seconds
     amc_ticker = yf.Ticker("AMC") # Stock ticker we are checking
-    alert_price = 20.0 # Price point when the alarm would trigger
+    alert_price = 1000.0 # Price point when the alarm would trigger
 
     alarmed = False
 
