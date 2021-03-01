@@ -1,6 +1,6 @@
 # stocks-checker
 
-Hi everyone, this is a simple Stock bid price checking python script that'll play an alarm sound whenever the stock price is above a certain threshold that you assign. This uses the Yahoo Finance public API, so thank them for keeping it public and free.
+Hi everyone, this is a simple stock price checking python script that'll play an alarm sound whenever the stock price is above a certain threshold that you assign. This uses the Yahoo Finance public API, so thank them for keeping it public and free.
 
 
 ### Setup
