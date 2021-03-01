@@ -10,7 +10,7 @@ You will probably need some speakers to fully utilize this script. It can also b
 - Second, you need to install the following Python libraries via the `pip install` command on your Command Prompt (Windows) or Terminal (MacOS):
   - `pip install yfinance`
   - `pip install pygame`
-- Finally, you need to find an MP3 file as your alarm sound. I did not include it in this repository in case I run into copyright issues with the alarm sound I use. So find an alarm sound you wish to use and name it `alarm.mp3`
+- Finally, you need to find an MP3 file as your alarm sound. I did not include it in this repository in case I run into copyright issues with the alarm sound I use. So find an alarm sound you wish to use and name it `alarm.mp3` (I personally am using some rock song that I used to jam to, I find it annoying now so I'll definitely wake up from it)
 
 ### To run the script
 
